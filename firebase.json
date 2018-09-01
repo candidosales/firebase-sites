@@ -1,0 +1,19 @@
+{
+  "hosting": [{
+    "target" : "staging",
+    "public": "dist/test-project",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }, {
+    "target" : "production",
+    "public": "dist/test-project",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }]
+}

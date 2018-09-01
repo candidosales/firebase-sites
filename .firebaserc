@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "test-project-1eabb"
+  },
+  "targets": {
+    "test-project-1eabb": {
+      "hosting": {
+        "staging": [
+          "staging-test-project"
+        ],
+        "production": [
+          "test-project-1eabb"
+        ]
+      }
+    }
+  }
+}
